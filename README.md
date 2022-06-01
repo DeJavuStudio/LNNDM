@@ -15,6 +15,7 @@
 Статья для установки: https://losst.ru/ustanovka-node-js-ubuntu-18-04
 
 ВАЖНО! Команда <source /etc/profile> не поможет Вам, просто перезапустите терминал.
+
 ВАЖНО! Версию nvm выбирайте 16.14.2.
 # Docker & docker-compose
 Статья для установки docker: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-ru
@@ -27,7 +28,9 @@
 Статья для установки: https://losst.ru/ustanovka-mysql-ubuntu-16-04
 
 ВАЖНО! После установки НЕ ЗАПУСКАТЬ плагин mysql_secure, просто войди в mysql (<mysql -u root -p>), когда попросит пароль, просто нажми enter. Далее введи <ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password by 'ПАРОЛЬ';>
+  
 ВАЖНО! Далее, не выходя с терминала создай юзера - <CREATE USER 'ЮЗЕР'@'%' IDENTIFIED BY 'ПАРОЛЬ'>, дать ему все права - <GRANT ALL PRIVILEGES ON *.* TO 'ЮЗЕР'@'%' WITH GRANT OPTION>
+  
 ВАЖНО! Зайти в кфг mysql (/etc/mysql/my.cnf), и заменить bind-address = 127.0.0.1 на bind-address = 0.0.0.0, если ничего нет, то добавьте
   
 [mysqld]
