@@ -8,3 +8,5 @@
 - Nginx
 # NodeJS
 Статья для установки: https://losst.ru/ustanovka-node-js-ubuntu-18-04
+
+ВАЖНО! Команда source /etc/profile не поможет Вам, просто перезапустите терминал.
