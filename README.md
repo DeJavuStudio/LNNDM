@@ -19,9 +19,7 @@
 ВАЖНО! Версию nvm выбирайте 16.14.2.
 # Docker & docker-compose
 Статья для установки docker: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-ru
-Статья для установки docker-compose: https://docs.docker.com/compose/install/
-
-ВАЖНО! В статье поменялись методы установки compose! Используйте: 1 - sudo apt install docker-compose-plugin; 2 - sudo apt install docker-compose;
+Статья для установки docker-compose: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04
 
 ВАЖНО! Если пишет, что docker-compose не установлен при запуске, то выполните <sudo apt-get install docker-compose>
 # Nginx
