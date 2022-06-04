@@ -36,7 +36,7 @@
 [mysqld]
 bind-address = 0.0.0.0
 
-И перезапустите сервис (<sudo systemctl restart mysql>).
+И перезапустите сервис (sudo systemctl restart mysql).
 # CertBot и OpenSSL
 Статья для установки certbot: https://habr.com/ru/post/318952/
   
