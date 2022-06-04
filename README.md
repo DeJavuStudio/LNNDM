@@ -30,6 +30,8 @@
 
 # Nginx
 Статья для установки: https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-20-04-ru
+
+ВАЖНО! Чтобы пофиксить ошибку getpawn - <useradd -r nginx>
 # MySql
 Статья для установки: https://losst.ru/ustanovka-mysql-ubuntu-16-04
 
