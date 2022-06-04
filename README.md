@@ -31,7 +31,7 @@
 
 ВАЖНО! После установки НЕ ЗАПУСКАТЬ плагин mysql_secure, просто войди в mysql (<mysql -u root -p>), когда попросит пароль, просто нажми enter. Далее введи <ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password by 'ПАРОЛЬ';>
   
-ВАЖНО! Далее, не выходя с терминала создай юзера - <CREATE USER 'ЮЗЕР'@'%' IDENTIFIED BY 'ПАРОЛЬ'>, дать ему все права - <GRANT ALL PRIVILEGES ON *.* TO 'ЮЗЕР'@'%' WITH GRANT OPTION>
+ВАЖНО! Далее, не выходя с терминала создай юзера - <CREATE USER 'ЮЗЕР'@'%' IDENTIFIED BY 'ПАРОЛЬ'>, дать ему все права - <GRANT ALL PRIVILEGES ON (Звездочка).(Звездочка) TO 'ЮЗЕР'@'%' WITH GRANT OPTION>
   
 ВАЖНО! Зайти в кфг mysql (/etc/mysql/my.cnf), и заменить bind-address = 127.0.0.1 на bind-address = 0.0.0.0, если ничего нет, то добавьте
   
