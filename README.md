@@ -29,7 +29,7 @@
 ВАЖНО! Если пишет, что no such files in dir: <ln -sf /usr/local/bin/docker-compose /usr/bin/docker-compose>
 
 # Nginx
-Статья для установки: https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-20-04-ru
+Статья для установки: https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-20-04
 
 ВАЖНО! Чтобы пофиксить ошибку getpawn - <useradd -r nginx>
 # MySql
