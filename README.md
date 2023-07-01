@@ -39,7 +39,8 @@
   
 ВАЖНО! Далее, не выходя с терминала создай юзера - <CREATE USER 'ЮЗЕР'@'%' IDENTIFIED BY 'ПАРОЛЬ'>, дать ему все права - <GRANT ALL PRIVILEGES ON (Звездочка).(Звездочка) TO 'ЮЗЕР'@'%' WITH GRANT OPTION>
   
-ВАЖНО! Зайти в кфг mysql (/etc/mysql/my.cnf), и заменить bind-address = 127.0.0.1 на bind-address = 0.0.0.0, если ничего нет, то добавьте
+ВАЖНО! Зайти в кфг mysql (/etc/mysql/my.cnf, /etc/mysql/mysql.conf.d/mysqld.cnf
+), и заменить bind-address = 127.0.0.1 на bind-address = 0.0.0.0, если ничего нет, то добавьте
   
 [mysqld]
 bind-address = 0.0.0.0
